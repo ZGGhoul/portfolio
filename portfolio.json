@@ -1,0 +1,29 @@
+[
+    {
+        "id":"1",
+        "title":"ingatlaniroda",
+        "photo url":"https://res.cloudinary.com/denrhq4ia/image/upload/v1741767585/58212026-96fb-4340-98d1-818d2a36bf7a.png_",
+        "repo link":"https://github.com/ZGGhoul/ingatlanker",
+        "topics": [
+            "fetch API",
+            "Set adatszerkezet",
+            "Array.from()",
+            "radió gombok használata",
+            "checkboxok használata",
+            "select használata"
+        ],
+        "site link":"https://zgghoul.github.io/ingatlanker/"
+
+        
+
+    },
+    {
+        "id":"2",
+        "title":"explore",
+        "photo url":"https://res.cloudinary.com/denrhq4ia/image/upload/v1741769418/f46be69b-69d2-4987-b46a-081bf8ec544a.png",
+        "repo link":"https://github.com/ZGGhoul/explore",
+        "topics":"selectors"
+            
+
+    }
+]
