@@ -22,8 +22,20 @@
         "title":"explore",
         "photo url":"https://res.cloudinary.com/denrhq4ia/image/upload/v1741769418/f46be69b-69d2-4987-b46a-081bf8ec544a.png",
         "repo link":"https://github.com/ZGGhoul/explore",
-        "topics":"selectors"
+        "topics":["selectors"],
+        "site link":"https://zgghoul.github.io/explore/"
             
+
+    },
+    {
+        "id":"3",
+        "title":"galéria",
+        "photo url":"https://res.cloudinary.com/denrhq4ia/image/upload/v1741766594/34337a73-ab14-4720-a5c8-8fa5f6bb171a.png",
+        "repo link":"",
+        "topics":[""],
+        "site link".""
+
+
 
     }
 ]
