@@ -1,0 +1,54 @@
+[
+    {
+        "id":"1",
+        "title":"ingatlaniroda",
+        "photo_url":"https://res.cloudinary.com/denrhq4ia/image/upload/v1741767585/58212026-96fb-4340-98d1-818d2a36bf7a.png_",
+        "repo_link":"https://github.com/ZGGhoul/ingatlanker",
+        "topics": [
+            "fetch API",
+            "Set adatszerkezet",
+            "Array.from()",
+            "radió gombok használata",
+            "checkboxok használata",
+            "select használata"
+        ],
+        "site link":"https://zgghoul.github.io/ingatlanker/"
+
+        
+
+    },
+    {
+        "id":"2",
+        "title":"explore",
+        "photo_url":"https://res.cloudinary.com/denrhq4ia/image/upload/v1741769418/f46be69b-69d2-4987-b46a-081bf8ec544a.png",
+        "repo_link":"https://github.com/ZGGhoul/explore",
+        "topics":["selectors"],
+        "site_link":"https://zgghoul.github.io/explore/"
+            
+
+    },
+    {
+        "id":"3",
+        "title":"galéria",
+        "photo_url":"https://res.cloudinary.com/denrhq4ia/image/upload/v1741766594/34337a73-ab14-4720-a5c8-8fa5f6bb171a.png",
+        "repo_link":"https://github.com/ZGGhoul/cat",
+        "topics":["fetch API","popover","search"],
+        "site_link":"https://zgghoul.github.io/cat/"
+    },
+    {
+        "id":"4",
+        "title":"növények",
+        "photo_url":"https://res.cloudinary.com/denrhq4ia/image/upload/v1741770091/9a801ac9-f835-4073-a808-36441ccdd26c.png",
+        "repo_link":"https://github.com/ZGGhoul/noveny",
+        "topics":["fetch API","adat renderelés","search"],
+        "site_link":"https://zgghoul.github.io/noveny/"
+    },
+    {
+       "id":"5",
+        "title":"könyvtár",
+        "photo_url":"https://res.cloudinary.com/denrhq4ia/image/upload/v1742374190/2459fd14-98d5-4ca5-aa8e-30ce113fca52.png",
+        "repo_link":"https://github.com/ZGGhoul/konyvkeres",
+        "topics":["fetch API","adat renderelés","search"],
+        "site_link":"https://zgghoul.github.io/konyvkeres/" 
+    }
+]

@@ -1,0 +1,25 @@
+body{
+    background-color: aquamarine;
+}
+nav{
+    background-color: aqua;
+}
+section{
+    background-color: blanchedalmond;
+}
+#hero{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+#main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
