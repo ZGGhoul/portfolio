@@ -23,3 +23,33 @@ img{
     display: flex;
     flex-direction: column;
 }
+#felso{
+    display: flex;
+    flex-direction: row-reverse;
+    list-style-type: none;
+    gap: 10px;
+      
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    min-width: 100px;
+    min-height: 100px;
+    background-color: white;
+    color: aqua;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+}
+blockquote{
+    border-left: 2px solid blue;
+    font-size: large ;
+}
+#logo{
+    display: flex;
+    font-weight: 100;
+    align-items: center;
+}
+
+   
