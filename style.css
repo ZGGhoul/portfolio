@@ -1,17 +1,24 @@
 body{
-    background-color: aquamarine;
+    background-color: #A78BFA ;
 }
 nav{
-    background-color: aqua;
+    background-color: #F5D76E;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    
 }
 section{
-    background-color: blanchedalmond;
+    background: linear-gradient(to right, #A78BFA, #D58D8D);
 }
 #hero{
     height: 100vh;
     display: flex;
     justify-content: center;
     align-content: center;
+    padding-top: 10px;
+    margin-top: 10px;
 }
 #szerk{
     display: flex;
@@ -20,6 +27,15 @@ section{
 #felosztas{
     display: flex;
     flex-direction: column;
+}
+#about{
+    margin: auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 860px;
+    min-width: 400; 
+    flex-direction: row;
 }
 #profilkep{
     width: 300px;
@@ -36,6 +52,7 @@ section{
     display: flex;
     flex-direction: row-reverse;
     list-style-type: none;
+    align-items: center;
     gap: 10px;
       
 }
@@ -54,6 +71,7 @@ a{
 blockquote{
     border-left: 2px solid blue;
     font-size: large ;
+    padding: 50px 30px 50px 30px;
 }
 #logo{
     display: flex;

@@ -15,7 +15,11 @@ function renderPortfolio(data){
                 <div id="infodiv">
                 <h1>${title}</h1>
                 <h3>Topics</h3>
-                <ul>${topics}</ul>
+                <ul>
+                <li>${topics[0]}</li>
+                <li>${topics[1]}</li>
+                <li>${topics[2]}</li>
+                </ul>
                 <a href="${site_link}">Site Link</a>
                 <a href="${repo_link}">Repo Link</a>
                 </div>
