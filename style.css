@@ -37,6 +37,9 @@ nav{
 #logo h1{
     margin: 0;
 }
+#hide{
+    color: #A78BFA;
+}
 h1{
     font-size: 45px;
 }
@@ -48,7 +51,7 @@ li{
     list-style-type: none;
 }
 p{
-    font-size: 18px;
+    font-size: 23px;
 }
 section{
     background: linear-gradient(to right, #A78BFA, #D58D8D);
@@ -74,10 +77,12 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 860px;
-    min-width: 400; 
     flex-direction: row;
     font-size: 30px;
+}
+#proba{
+    max-width: 800px;
+    min-width: 400px; 
 }
 #profilkep{
     width: 300px;
@@ -148,4 +153,35 @@ input{
     gap: 10px;
 
 }
+
+@media screen and (max-width: 1800px) {
+    #nagyfel{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+        align-items: center;
+    }
+    #portfolio{
+        display: flex;
+        flex-direction: column;
+    }
+    #munkakep{
+        min-width: 250px;
+        max-width: 500px;
+    }
+    #hide{
+        color: #F5D76E;
+    }
+    #contact{
+        display: flex;
+        flex-direction: column;
+    }
+    #map{
+        max-width: 500px;
+    }
+
+}
+
+
    
