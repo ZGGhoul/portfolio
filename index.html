@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolió</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
     <link rel="stylesheet" href="style.css">
     <script src="getData.js"></script>
     <script src="main.js"defer></script>
@@ -12,8 +13,8 @@
     <div class="container">
         <nav>
             <div id="logo"><h1>Dom</h1></div>
-            <div id="felso">
-                <ul></ul>
+            <div >
+            <ul id="felso">
                 <li><a href="#about">Rólam</a></li>
                 <li><a href="#work">Munkáim</a></li>
                 <li><a href="#contact">Kapcsolat</a></li>
@@ -26,17 +27,18 @@
         <!--hero section-->
         <section id="hero" >  
             <div id="main">
-                <div id="felosztas">
-                    <img src="PROJEKT.jpg" alt="saját fotó" id="profilkep">  
+                <div id="nagyfel">
+                    <div><img src="PROJEKT.jpg" alt="saját fotó" id="profilkep"> </div>
+                    <div id="felosztas">
                     <h1>Kóczián Dominik</h1>
                     <blockquote>Tudod mi a különbség az elmélet és a gyakorlat közt? Elméletileg semmi.</blockquote>
+                    </div>
+                </div>    
                 <div class="gombok" >
                     <a href="#about" class="btn">Rólam</a>
                     <a href="#work" class="btn">Munkáim</a>
                     <a href="#contact" class="btn">Kapcsolat</a>
                     </div> 
-                </div>
-                
             </div>
             
         </section>
@@ -57,10 +59,26 @@
         
 		
 		 <!--contact section-->
-        <section id="contact"> 
-            Email: kocziand@gmail.com
-			Phone number: +36 3155184
-            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d505.5164037125686!2d19.68767076216851!3d46.91758275229163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4743da039cc46819%3A0x76e03484e50b2f33!2zS2Vjc2tlbcOpdGkgU1pDIEthbmTDsyBLw6FsbcOhbiBUZWNobmlrdW0!5e0!3m2!1shu!2shu!4v1742457479536!5m2!1shu!2shu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <section id="contact">
+            <div>
+                <p>📧 Email: kocziand@gmail.com</p>	
+                <p>📱 Phone number: +363155184</p>
+            </div>
+            <div>
+                <form>
+                    <h3>Contact Form</h3>
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name">
+                    <input type="text" placeholder="Email">
+                    <input type="tel" placeholder="Phone Number">
+                    <input type="text" placeholder=" Message">                        
+                    <button type="button" >Submit</button>
+                </form>
+            </div>
+
+            <div>
+                <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d505.5164037125686!2d19.68767076216851!3d46.91758275229163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4743da039cc46819%3A0x76e03484e50b2f33!2zS2Vjc2tlbcOpdGkgU1pDIEthbmTDsyBLw6FsbcOhbiBUZWNobmlrdW0!5e0!3m2!1shu!2shu!4v1742457479536!5m2!1shu!2shu" width="600" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
 		</section>
         
 		
